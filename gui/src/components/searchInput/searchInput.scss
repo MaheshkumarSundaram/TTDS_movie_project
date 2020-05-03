@@ -1,0 +1,50 @@
+@import '../../variables.scss';
+
+.search-form {
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .search-input {
+    width: 65%;
+  }
+
+  .search-button {
+    width: 10%;
+  }
+
+  .movie-search {
+    width: 20%;
+    color: white;
+  }
+}
+
+.advanced-search-button {
+  padding-bottom: 20px;
+  color: white;
+}
+
+.error-container {
+  color: red;
+}
+
+.error-message {
+  color: red;
+  padding-bottom: 10px;
+}
+
+.examples {
+  h6, span {
+   color: white;
+  }
+
+  a {
+    cursor: pointer;
+  }
+}
+
+ul {
+  background-color: $cardBackground;
+}
+
